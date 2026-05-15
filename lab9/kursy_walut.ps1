@@ -25,7 +25,6 @@ Write-Host "Data`t`tKurs`t`tRóżnica"
 
 $i = 1
 foreach ($value in $rates) {
-    #Write-Host $value
     if ($i -eq 1) {
         Write-Host "$($value.effectiveDate)`t$($value.mid)`t`t---" 
     }
